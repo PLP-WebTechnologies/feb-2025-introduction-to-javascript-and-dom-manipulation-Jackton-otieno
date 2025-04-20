@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #dynamicText {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dynamic DOM Manipulation</h1>
+    </header>
+    <main class="container">
+        <section>
+            <p id="dynamicText">Initial text content</p>
+            <button id="changeTextBtn">Change Text</button>
+            <button id="toggleStyleBtn">Toggle Highlight</button>
+            <button id="addElementBtn">Add Element</button>
+            <button id="removeElementBtn">Remove Last Element</button>
+        </section>
+        <article id="elementContainer">
+            <h2>Dynamic Elements</h2>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 DOM Manipulation Demo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
